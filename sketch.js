@@ -220,7 +220,7 @@ function setup() {
    let note７ = createButton('期中筆記');
   note７.parent(menuTamkangET);
   note７.style('background-color', '#ffc2d1'); // 按鈕背景顏色
-  note７.style('color', '#ef47７f'); // 按鈕文字顏色
+  note７.style('color',  '#ef476f'); // 按鈕文字顏色
   note７.style('border', '1px solid #ef476f'); // 按鈕邊框顏色
   note７.style('padding', '5px 10px'); // 按鈕內邊距
   note７.style('border-radius', '5px'); // 按鈕圓角
