@@ -217,6 +217,17 @@ function setup() {
   note6.mousePressed(() => {
     showIframe('https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/HkCm0S03kg'); // 替換為第六周筆記的網址
   });
+   let note７ = createButton('期中筆記');
+  note７.parent(menuTamkangET);
+  note７.style('background-color', '#ffc2d1'); // 按鈕背景顏色
+  note７.style('color', '#ef47７f'); // 按鈕文字顏色
+  note７.style('border', '1px solid #ef476f'); // 按鈕邊框顏色
+  note７.style('padding', '5px 10px'); // 按鈕內邊距
+  note７.style('border-radius', '5px'); // 按鈕圓角
+  note７.style('cursor', 'pointer'); // 滑鼠指標樣式
+  note７.mousePressed(() => {
+    showIframe('https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/SJ9RDx50Je'); // 替換為期中筆記的網址
+  });
   // 建立 "淡江教科" 按鈕
   btnTamkangET2.mousePressed(() => {
     showIframe('https://413730739.github.io/0317/');
