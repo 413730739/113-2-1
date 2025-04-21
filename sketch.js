@@ -237,7 +237,7 @@ function setup() {
 
   // 建立 "測驗題" 按鈕
   btnQuiz.mousePressed(() => {
-    showIframe('https://413730739.github.io/0310/');
+    showIframe('https://413730739.github.io/0310-2/');
   });
   btnQuiz.mouseOver(() => isHoverQuiz = true); // 滑鼠移入
   btnQuiz.mouseOut(() => isHoverQuiz = false); // 滑鼠移出
